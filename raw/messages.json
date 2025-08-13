@@ -1,0 +1,26 @@
+{
+  "errors": {
+    "configNotFound": "config.json not found in the root directory.",
+    "failedToLoadCmd": "Failed to load {file}: {message}",
+    "failedToLoadEvent": "Failed to load event {file}: {message}",
+    "failedToFetchAdmin": "Could not fetch admin info: {message}",
+    "processStartFailed": "Failed to start {script}: {message}"
+  },
+  "warnings": {
+    "cmdsDirNotFound": "Cmds directory not found: {dir}",
+    "eventsDirNotFound": "Events directory not found: {dir}",
+    "missingCmdName": "Missing nix.name in {file}",
+    "processTerminated": "Terminated previous instance of {script}",
+    "processExited": "{script} exited with code {code}"
+  },
+  "info": {
+    "loadingCmds": "LOADING COMMANDS",
+    "loadingEvents": "LOADING EVENTS",
+    "loadingAdminInfo": "ADMIN INFO",
+    "cmdLoaded": "Loaded {file}",
+    "eventLoaded": "Loaded {file}"
+  },
+  "separators": {
+    "line": "────────────────────────────────────────"
+  }
+}
